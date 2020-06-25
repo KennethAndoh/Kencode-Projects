@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+ }
+
+/*Global*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*header*/
+header {
+    background: #03A9F4;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #FF5722 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0
+}
+
+header li {
+    float: left; 
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #FF5722;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup{
+    background: #35424a;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+.signup h1{
+    font-size: 30px;
+    color: #e8491d;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+ #form{
+    background: none;
+    border: 3px;
+    outline: thick;
+    color: #888;
+    padding: 10px 6px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   .username{
+    float: inline-end;
+    width: 270px;
+   }
+
+   .signup button{
+    background: none;
+    color: #ffffff;
+    border: 3px solid #e8491d;
+    padding: 12px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.4s linear;
+    cursor: pointer;
+}
+
+.signup button:hover{
+    background: #f85656;
+    color:#fff;
+    border: 3px solid #03A9F4;
+}
+
+hr{
+    border-style: dashed;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+/*social*/
+#social {
+    text-align: center;
+    background-color: #FF5722;
+}
+
+/*foooter*/
+#footer {
+    text-align: center;
+    background-color: #03A9F4;
+    color: #ffffff;
+    font-size: 16px;
+}

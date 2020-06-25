@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+ }
+
+/*Global*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*header*/
+header {
+    background: #009688;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #FF5722 3px solid;
+    text-transform: uppercase;
+}
+
+header ul {
+    margin: 0;
+    padding: 0
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1 {
+    margin:0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight{
+    color: #ff9800;
+}
+
+#searchBar {
+    border: 3px solid #009688;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    width: 250px;
+    -webkit-border-top-left-reflect: 10px;
+    -webkit-border-bottom-left-reflect: 10px;
+    -moz-border-reflect-topleft: 30px;
+    -moz-border-reflect-bottomleft: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#searchBtn {
+  border: 3px solid #009688;
+  font-size: 16px;
+  padding: 10px;
+  background: #ff9800;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  -webkit-border-top-right-reflect: 10px;
+    -webkit-border-bottom-right-reflect: 10px;
+    -moz-border-reflect-topright: 30px;
+    -moz-border-reflect-bottomright: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*showcase*/
+#showcase {
+    min-height: 400px;
+    text-align: center;
+    color: #FF5722;
+    background-attachment: fixed;
+    background-color: aqua;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/*pricing*/
+#pricing{
+    text-align: center;
+    background-color: #35424a;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+#pricing h1{
+    color: #ffeb3b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pricing hr{
+    border-style: dashed;
+}
+
+
+#newsletter{
+    background-color: #ffeb3b;
+    text-align: center;
+}
+
+#newsletter h1{
+    text-transform: uppercase;
+    color: rgba(45, 11, 240, 0.877);
+    font-size: 22px;
+}
+
+#email{
+    border: 3px solid #03A9F4;
+    line-height: 0;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+#sub-btn{
+    border: 3px solid #03A9F4;
+    font-size: 16px;
+    padding: 10px;
+    background: #ff9800;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px; 
+    color: #f4f4f4; 
+}
+
+#hori hr{
+    border-style: dashed;
+    background-color: #ff9800;
+}
+
+#comment-box{
+    background-color: burlywood;
+}
+#comment{
+    border: 3px solid #000000;
+    line-height: 0;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    width: 250px;
+    height: 80px;
+    margin-bottom: 10px;
+    -webkit-border-top-left-reflect: 10px;
+    -webkit-border-bottom-left-reflect: 10px;
+    -moz-border-reflect-topleft: 30px;
+    -moz-border-reflect-bottomleft: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-border-top-right-reflect: 10px;
+    -webkit-border-bottom-right-reflect: 10px;
+    -moz-border-reflect-topright: 30px;
+    -moz-border-reflect-bottomright: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#com{
+    border: 3px solid #000000;
+    font-size: 16px;
+    padding: 10px;
+    background: #f4f4f4;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px; 
+    color: #000000;
+    -webkit-border-top-right-reflect: 10px;
+    -webkit-border-bottom-right-reflect: 10px;
+    -moz-border-reflect-topright: 30px;
+    -moz-border-reflect-bottomright: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-border-top-left-reflect: 10px;
+    -webkit-border-bottom-left-reflect: 10px;
+    -moz-border-reflect-topleft: 30px;
+    -moz-border-reflect-bottomleft: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+
+
+/*foooter*/
+#footer {
+    text-align: center;
+    background-color: #03A9F4;
+    color: #ffffff;
+    font-size: 16px;
+}
