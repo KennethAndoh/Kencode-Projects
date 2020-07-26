@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: cyan;
+}
+
+header{
+    text-transform: uppercase;
+    text-align: center;
+    background: #e8491d;
+    height: 50px;
+    color: #ffffff;
+}
+
+
+.box {
+    height: 750px;
+    width: 750px;
+    margin-left: 270px;
+    margin-right: 500px;
+    background: url(/download\ \(3\).jpeg);
+}
+
+#Username{
+   border-radius: 10px;
+   border-color: #e8491d;
+   width: 740px;
+   height: 40px;
+   font-size: 20px;
+   
+}
+
+a.btn {
+    text-decoration: none;
+    color: cyan;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 325px;
+    width: 50px;
+}
+
+.primary{
+    background-color: black;
+    border-bottom: 2px solid cyan;
+    border-top: 2px solid cyan;
+    border-left: 2px solid cyan;
+    border-right: 2px solid cyan;
+}
+
+a.btn:hover {
+    background-color: #e8491d;
+    color: #ffffff;
+    border-bottom: 2px solid cyan;
+    border-top: 2px solid cyan;
+    border-left: 2px solid cyan;
+    border-right: 2px solid cyan;
+}
