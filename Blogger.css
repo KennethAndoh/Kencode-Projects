@@ -1,0 +1,178 @@
+/*start global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+   background: linear-gradient(to right, #ffeb3b, #F06292);
+}
+
+.top-nav{
+    transition: all 650ms cubic-bezier(1, 0, 0, 1);
+}
+
+.nav-list{
+    list-style: none;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    margin: 0 2rem;
+}
+
+.nav-link{
+    font-family: Blackadder ITC, sans-serif;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: rgb(13, 9, 253);
+    background-color: rgb(250, 236, 41);
+    transition: all 650ms cubic-bezier(1, 0, 0, 1);
+}
+
+.nav-link:hover{
+    background-color: rgb(60, 57, 250);
+    color: rgb(243, 239, 28);
+    font-style: italic;
+    font-size: 3rem;
+    transition: all 650ms cubic-bezier(1, 0, 0, 1);
+}
+
+
+main .site-title{
+    background: url(/statue.jpg);
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: #ffeb3b;
+}
+
+main .site-title h1,h3{
+    margin: .3rem;
+}
+
+main .site-title .btn{
+    margin: 1.8rem;
+    background: linear-gradient(to right, #ffeb3b, #F06292 );
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    font-family: bahaus 93;
+    font-style: italic;
+    cursor: pointer;
+    transition: all 650ms cubic-bezier(1, 0, 0, 1);
+}
+
+main .site-title .btn:hover{
+    background: transparent;
+    border: 2px solid rgb(13, 9, 253);
+    color: #ffeb3b;
+    font-style: italic;
+    
+}
+
+.explore{
+    text-decoration: none;
+    color: black;
+    transition: all 650ms cubic-bezier(1, 0, 0, 7);
+}
+
+
+ main h1{
+    font-family: Algerian;
+    font-size: 4.9rem;
+    font-style: italic;
+    transition: all 650ms cubic-bezier(1, 0, 0, 1);
+}
+
+main h3{
+    font-family: Bauhaus 93;
+    font-size: 2rem;
+    font-style: italic;
+    transition: all 650ms cubic-bezier(1, 0, 0, 5);
+}
+
+.beautiful-places h1{
+    background: linear-gradient(to right, #03a9f4, #ffeb3b );
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Segoe script';
+    font-size: 2.5rem;
+    color: #0400fb;
+    margin-bottom: 5px;
+}
+
+
+
+
+/*Start history*/
+.history-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    background: linear-gradient(to right, #ffeb3b, #F06292 );
+}
+
+.history-item p{
+    font-size: 1.7rem;
+    font-style: oblique;
+    font-family: helvetica;
+}
+
+.history-item:last-child{
+    margin-bottom: 0;
+}
+
+.portfolio-img{
+    width: 90rem;
+    flex: 1;
+}
+
+.portfolio-image{
+    width: 80rem;
+    flex: 1;
+}
+
+.social-media{
+    margin-top: 5rem;
+}
+
+.social-media i{
+    font-size: 5rem;
+    transition: 650ms;
+}
+
+.fa-facebook-square:hover{
+    color: #124bbd;
+}
+
+.fa-twitter-square:hover{
+    color: #38a1f3;
+}
+
+.fa-github:hover{
+    color: #000000;
+}
+
+.fa-youtube:hover{
+    color: red;
+}
