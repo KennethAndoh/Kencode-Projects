@@ -272,7 +272,7 @@ li{
     color: #38a1f3;
 }
 
-.fa fa-github:hover{
+.fa-github:hover{
     color: #eee;
 }
 /*End about*/
@@ -336,9 +336,6 @@ li{
 .profile-img{
     width: 90rem;
     flex: 1;
-}
-
-.portfolio-description{
 }
 
 portfolio-description h1{
