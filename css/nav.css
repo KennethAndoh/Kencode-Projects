@@ -8,7 +8,7 @@
 
 body{
     font-family: Helvetica;
-    background: linear-gradient(to right, #68aaff, #ffffff);
+    background: linear-gradient(to right, #ee8a07, #ffffff);
 }
 nav{
     background-color: #000000;
@@ -91,6 +91,9 @@ span{
 }
 /*end show section*/
 
+
+/*end about*/
+
 /*start section heading*/
 .section-heading{
     text-align: center;
@@ -99,9 +102,9 @@ span{
 
 .section-heading h1{
     font-size: 3.5rem;
-    color: rgba(255,255,255, .3);
+    color: rgba(15, 53, 223, 0.3);
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 600;
     position: relative;
     margin-bottom: 1rem;
 }
@@ -110,10 +113,10 @@ span{
 .section-heading h1::after{
     content: '';
     position: absolute;
-    bottom: -.5rem;
+    bottom: -.4rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255,255,255, 0.75);
+    background-color: rgba(240, 120, 22, 0.75);
 }
 
 .section-heading h1::before{
@@ -131,7 +134,7 @@ span{
 
 .section-heading h6{
     font-size: 1.6rem;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .has-margin-right{
@@ -163,57 +166,17 @@ span{
 }
 
 .icon-container{
-    width: 5rem;
-    height: 5rem;
-    border: 3px solid #e7490a;
+    height: 10rem;
+    border: 5px solid #f0150d;
     background-color: #1310f5;
     margin-bottom: -1rem;
     display: flex;
-    transform: rotate(45deg);
 }
 
-.icon-container i{
-     color: #ffe838;
-     font-size: 5rem;
-     margin: auto;
-     transform: rotate(-45deg);
-}
-/*End services*/
-
-/*end everything*/
-.contact-info{
-    height: 200%;
-    width: 100%;
-    background: linear-gradient(to bottom, #000000, #4b4949, #000000);
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
-    margin-bottom: 5rem;
-}
-
- h2{
-    color: #ffffff;
-    padding-top: 20px;
-    margin: 25px;
-}
-
-address{
-    color: #8d8b8b;
-    font-size: 20px;
-    padding-left: 15px;  
-}
-/*end everything*/
-
-@media (max-width: 933px){
-    label.logo{
-        font-size: 30px;
-        padding-left: 50px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
+.icon-container1{
+    height: 10rem;
+    border: 5px solid #f0150d;
+    background-color: #1310f5;
+    margin-bottom: 1rem;
+    display: flex;
 }
