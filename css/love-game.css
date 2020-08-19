@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fa0000cc;
+    border: 3px solid #030303cc;
+}
+
+h1{
+    font-family: segoe script, sans-serif;
+    color: #ffffff;
+}
+
+span{
+    color: #0a2efb;
+}
+
+.gender {
+    display: inline-flex;
+    padding-top: 50%;
+}
+
+.gender-selection{
+    background-color: #ffffff;
+}
+
+.gender-selection h2{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+
+#contact{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+.contact-form{
+    padding: 15px;
+}
+
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+::placeholder{
+    color: #999 !important;
+    font-size: 20px;
+}
+
+input[type="text"]{
+    font-size: 25px;
+}
+
+a{
+    font-size: 50px;
+
+}
+
+.winning-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(13, 9, 250, 0.9);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5rem;
+    flex-direction: column;
+}
+
+.winning-message button{
+    font-size: 3rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: .25em .5em;
+    cursor: pointer;
+}
+
+.winning-message button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.winning-message.show {
+    display: flex;
+}

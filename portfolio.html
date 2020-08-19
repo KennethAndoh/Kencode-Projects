@@ -1,34 +1,191 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>ken portfolio</title>
-        <link rel="stylesheet" href="css/portfolio.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <body>
-            <header>
-            <div class="container">
-                <div id="branding">
-            <nav>
-                <ul>
-                    <li class="current"><a href="">Home</a></li>
-                    <li class=""><a href="">About me</a></li>
-                    <li class=""><a href="">Skills</a></li>
-                    <li class=""><a href="">Contact me</a></li>
-                    
-                </ul>
-            </nav>
-                </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenneth Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <a class="navbar-brand" href="#"><h1>KEN<span>CODE</span></h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#top">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+              </ul>
             </div>
-        </header>
-        <form>
-            <div class="head">
-                <div class="container">
-                    <h1>Kencode</h1>
-               
+          </nav>
+       </section>
+  
+       <!-------------SLIDER---->
+       <div id="slider">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/person2.jfif" class="d-block w-100">
+                <div class="carousel-caption">
+                  <h5>Kencode Web Design</h5>
                 </div>
+              </div>
+              </div>
             </div>
-        </form>
+          </div>
 
-        </body>
-    </head>
-</html> 
+    <!----------About------->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About</h2>
+                    <div class="about-content">
+                      Ernegetic web designer with 2 years of experience from KENCODE.
+                      Creating and maintaining functional. 
+                      Attractive and responsive websites for any agency.
+                    </div>
+                    <div class="profile-pic">
+                        <img src="/profile_pic.jpg">
+                    </div>
+                    <button type="button" class="btn btn-primary">Read More>></button>
+                </div>
+                <div class="col-md-6 skills-bar">
+                    <p>UI Design</p>
+                    <div class="progress">
+                     <div class="progress-bar" style="width: 85%;">85%</div>   
+                    </div>
+                    <p>WordPress</p>
+                    <div class="progress">
+                     <div class="progress-bar" style="width: 60%;">60%</div>   
+                    </div>
+                    <p>Graphics Design</p>
+                    <div class="progress">
+                     <div class="progress-bar" style="width: 70%;">70%</div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!--------------Promo------->
+      <section id="promo">
+          <div class="container">
+              <p>Get Free Domain Name And Web Hosting</p>
+              <a href="#contact" class="btn btn-primary">Contact Us</a>
+          </div>
+      </section>
+
+    <!--------Services-------->
+    <section id="services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="row services">
+              <div class="col-md-3 text-center">
+                  <div class="icon">
+                      <i class="fa fa-desktop" aria-hidden="true"></i>
+                  </div>
+                  <h3>Web Development</h3>
+                  <p>Ernegetic web designer with 2 years of experience from KENCODE.
+                     Creating and maintaining functional.</p>
+              </div>
+              <div class="col-md-3 text-center">
+                  <div class="icon">
+                      <i class="fa fa-database" aria-hidden="true"></i>
+                  </div>
+                  <h3>Web Designing</h3>
+                  <p>Ernegetic web designer with 2 years of experience from KENCODE.
+                     Creating and maintaining functional.</p>
+              </div>
+              <div class="col-md-3 text-center">
+                  <div class="icon">
+                      <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                  </div>
+                  <h3>Graphics Design</h3>
+                  <p>Ernegetic web designer with 2 years of experience from KENCODE.
+                     Creating and maintaining functional.</p>
+              </div>
+              <div class="col-md-3 text-center">
+                  <div class="icon">
+                      <i class="fa fa-code" aria-hidden="true"></i>
+                  </div>
+                  <h3>Programming</h3>
+                  <p>Ernegetic web designer with 2 years of experience from KENCODE.
+                     Creating and maintaining functional.</p>
+              </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      
+
+      <!-------Get in touch------>
+      <section id="contact">
+        <div class="container">
+            <h1>Get In Touch With Me</h1>
+            <div class="row">
+                <div class="col-md-6">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" placeholder="Phone no.">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email id">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                </form>    
+                </div>
+                <div class="col-md-6 contact-info">
+                  <div class="follow"><b>Phone:</b><i class="fa fa-phone" aria-hidden="true"></i>+245 561995659</div>
+                  <div class="follow"><b>Email:</b><i class="fa fa-envelope-o" aria-hidden="true"></i>kencode22@gmail.com</div>
+                  <div class="follow"><label><b>Get Social:</b></label>
+                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                 </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        </div>
+        <p>&copy; 2020 Kencode</p>
+    </footer>
+
+    <script src="/SmoothScroll.js"></script>
+                <script>
+                    var scroll = new SmoothScroll('a[href*="#"]');
+               </script>
+             
+</body>
+</html>
