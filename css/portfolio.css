@@ -20,6 +20,7 @@ html{
 
 .navbar-brand h1{
    padding-left: 30px;
+   font-weight: bold;
 }
 
 span{
