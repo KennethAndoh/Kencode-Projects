@@ -16,14 +16,21 @@
 <body>
     <header>
         <div class="first-section">
-            <h1>Love <span>❤</span> Rate Game</h1> 
+            <h1><span>❤</span>Kencode <span>❤</span> Love <span>❤</span> Rate <span>❤</span> Game<span>❤</span></h1> 
         </div>
     </header>
-    <center><section id="contact">
+    <div class="gender-selection">
+        <SELECT>
+        <option value="">MALE</option>
+        <option value="">FEMALE</option>
+        </SELECT>
+    </div>
+
+    <center><section id="game-show">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                <form class="contact-form">
+                    <form class="contact-form">
                     <div class="form-group">
                         <h2>Enter Your Name:</h2>
                         <input type="text" class="form-control" placeholder="Enter Your Name:">
@@ -33,18 +40,26 @@
                         <h2>Enter Your Friend's Name:</h2>
                         <input type="text" class="form-control" placeholder="Enter Your Friend's Name:">
                     </div>
-                    <button type="submit" class="btn btn-danger">Rate Your Love Score</button>
-                </form>    
+                    <button id="b" onclick="random();" type="submit" class="btn btn-danger">Rate Your Love Score</button>
+                    </form>    
                 </div>
-            </div>
+                <div class="col-md-6 contact-info">
+                <div class="love-heading">
+                    <h3>YOUR LOVE SCORE RATE IS</h3>
+                </div>
+                    <div id="rate-box"></div>
+                    <br>
+                    <div class="follow"><label><b><h2>Get Social:</h2></b></label>
+                       <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                       <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                       <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                   </div>
+                  </div>
+               </div>
             </div>
         </div>
     </section></center>
 
-    <div class="winning-message " id="winningMessage">
-        <div data-winning-message-text></div>
-        <h3>The love between you and your friend is</h3>
-    </div>
-    <script src="/love-game.j"></script>
+    <script src="/love-game.jS"></script>
 </body>
 </html>

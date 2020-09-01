@@ -7,8 +7,8 @@ header{
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    background-color: #fa0000cc;
-    border: 3px solid #030303cc;
+    background-color: #cf0505cc;
+    border: 3px solid #0afb3e;
 }
 
 h1{
@@ -17,30 +17,32 @@ h1{
 }
 
 span{
-    color: #0a2efb;
-}
-
-.gender {
-    display: inline-flex;
-    padding-top: 50%;
+    color: #0afb3e;
 }
 
 .gender-selection{
-    background-color: #ffffff;
+    width: 100%;
+    height: 47px;
+    border: 2px solid #ffffff;
 }
 
-.gender-selection h2{
-    text-align: center;
-    font-size: 1.5rem;
-    padding-top: 10px;
+.gender-selection select{
+    width: 130px;
+    height: 45px;
+   background-color: #0afb3e;
+   color: #000000;
+   border: 3px solid #0a2efb;
+   font-size: 25px;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif; 
 }
 
-
-#contact{
+#game-show{
     background-color: #efefef;
     padding-top: 40px;
     padding-bottom: 40px;
     color: #777;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .contact-form{
@@ -63,38 +65,68 @@ input[type="text"]{
 
 a{
     font-size: 50px;
-
 }
 
-.winning-message {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(13, 9, 250, 0.9);
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 5rem;
-    flex-direction: column;
+.love-heading h3{
+    color: #0a2efb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
-.winning-message button{
-    font-size: 3rem;
-    background-color: white;
-    border: 1px solid black;
-    padding: .25em .5em;
-    cursor: pointer;
+#rate-box{
+    border: 3px solid #fa0000cc;
+    width: 150px;
+    height: 75px;
+    margin: ;
+    background-color: #0afb3e;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+    cursor: not-allowed;
+    animation: pulse 2s infinite;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-.winning-message button:hover {
-    background-color: black;
-    color: white;
-    border-color: white;
+#rate-box{
+    font-size: 50px;
+    color: #0a2efb;
 }
 
-.winning-message.show {
-    display: flex;
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
+
+.contact-info .fa{
+    margin: 10px;
+    color: #fa0000cc;
+    font-weight: bold;
+}
+
+.contact-info .fa:hover{
+    color: #0a2efb;
+}
+
+h2{
+   color: #0a2efb; 
+}
+
+/*Start animation*/
+@keyframes pulse {
+    0%{
+        box-shadow: 0 0 0 0 #0afb3e;
+        border-radius: 20px;
+    }
+    70%{
+        box-shadow: 0 0 0 2rem transparent;
+        border-radius: 20px;
+    }
+    100%{
+        box-shadow: 0 0 0 0 #1201ff;
+        border-radius: 20px;
+    }
+}
+/*End animation*/
