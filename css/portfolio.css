@@ -61,9 +61,10 @@ span{
 }
 
 .carousel-caption h5{
-    color: #f1bb09;
+    color: #fae20c;
     font-size: 42px;
     position: sticky;
+    font-weight: bold;
 }
 
 /*about*/
