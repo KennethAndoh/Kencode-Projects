@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<!---------Navigation bar--------->
+<section id="nav-bar">
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><h1>KEN<span>CODE</span></h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#top">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">SKILLS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+ </section>
+
+ <!------------Landing Text----------->
+<div id="slider">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/person2.jfif" class="d-block w-100">
+          <div class="carousel-caption">
+            <h1>KENCODE</h1>
+            <h5>Web Designer | Web Developer</h5>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+    
+    <!---------About-------->
+    <section id="about">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <h2>About</h2>
+                  <div class="about-content">
+                      HI, MY NAME IS <span style="color: #1201ff; font-weight: bolder;">KENNETH ANDOH</span> 
+                      AND I'M A WEB DESIGNER PREFERABLY
+                      A FRONT-END DEVELOPER. I'M AN ENERGETIC BOY OF SOUND MIND  
+                      AND ALSO WITH A YEAR OF EXPERIENCE IN WEB DESIGNING.
+                      CREATING AND MAINTAINING FUNCTIONAL. I CAN CREATE WEBSITES
+                      FOR ANY AGENCY.
+                  </div>
+                          <a href="#contact" class="btn btn-warning">Contact Me</a>
+              </div>
+              <div class="col-md-6 profile-pic">
+                 <img src="/profile_pic.jpg">
+              
+              <div class="social-media">
+                <ul>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          </div>
+      </div>
+    </section>
+
+  <!----------Skills------------>
+  <section id="services">
+    <div class="container">
+        <h1>My Skills</h1>
+        <div class="row services">
+          <div class="col-md-4 text-center">
+              <div class="icon">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+              </div>
+              <h3>Web Development</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod tempor incidudunt ut labore et dolore 
+                Ut enim ad minimveniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="col-md-4 text-center">
+              <div class="icon">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>
+              </div>
+              <h3>Web Designing</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod tempor incidudunt ut labore et dolore 
+                Ut enim ad minimveniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="col-md-4 text-center">
+              <div class="icon">
+                  <i class="fa fa-paint-brush" aria-hidden="true"></i>
+              </div>
+              <h3>Graphics Design</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eiusmod tempor incidudunt ut labore et dolore 
+                 Ut enim ad minimveniam, quis nostrud exercitation 
+                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!---------contact-------->
+  <section id="contact">
+    <div class="container">
+        <h1>Get In Touch</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" placeholder="Phone no.">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email id">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                    </form>    
+            </div>
+            <div class="col-md-6 contact-info">
+              <div class="follow"><b>Phone:</b><i class="fa fa-phone" aria-hidden="true"></i>+245 561995659</div>
+              <div class="follow"><b>Email:</b><i class="fa fa-envelope-o" aria-hidden="true"></i>kencode22@gmail.com</div>
+              <div class="follow"><label><b>Get Social:</b></label>
+                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+             </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!--------footer-------->
+     <footer class="copyright">
+      <div class="up" id="up">
+        <a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+      </div>
+      <p>&copy; 2020 Kencode</p>
+    </footer>
+    <script src="/SmoothScroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
