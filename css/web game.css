@@ -1,17 +1,29 @@
-*, *::after, *::before {
+*, *::after, *::before{
     box-sizing: border-box;
 }
 
-:root {
+
+:root{
     --cell-size: 100px;
     --mark-size: calc(var(--cell-size) * .9);
 }
 
-body {
+body{
     margin: 0;
+    background: linear-gradient(to right, #040646, #520194);
 }
 
-.board {
+header h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: lightgreen;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.board{
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -22,10 +34,10 @@ body {
     grid-template-columns: repeat(3, auto);
 }
 
-.cell {
-    width: var(--cell-size);
+.cell{
+    width:  var(--cell-size);
     height: var(--cell-size);
-    border: 1px solid black;
+    border: 2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,21 +47,21 @@ body {
 
 .cell:first-child,
 .cell:nth-child(2),
-.cell:nth-child(3) {
+.cell:nth-child(3){
     border-top: none;
 }
 
-.cell:nth-child(3n + 1) {
+.cell:nth-child(3n + 1){
     border-left: none;
 }
 
-.cell:nth-child(3n + 3) {
+.cell:nth-child(3n + 3){
     border-right: none;
 }
 
 .cell:last-child,
 .cell:nth-child(8),
-.cell:nth-child(7) {
+.cell:nth-child(7){
     border-bottom: none;
 }
 
@@ -60,24 +72,24 @@ body {
 
 .cell.x::before,
 .cell.x::after,
-.cell.circle::before {
-    background-color: black;
+.cell.circle::before{
+    background-color: aqua;
 }
 
 .board.x .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after,
-.board.circle .cell:not(.x):not(.circle):hover::before {
-     background-color: lightgrey;
+.board.circle .cell:not(.x):not(.circle):hover::before{
+    background-color: lightgreen;
 }
 
 .cell.x::before,
 .cell.x::after,
-.board.x .cell:not(.x):not(.circle):hover::before, 
+.board.x .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after {
-   content: '';
-   position: absolute;
-   width: calc(var(--mark-size) * .15);
-   height: var(--mark-size);
+    content: '';
+    position: absolute;
+    width: calc(var(--mark-size) * .15);
+    height: var(--mark-size);
 }
 
 .cell.x::before,
@@ -86,30 +98,33 @@ body {
 }
 
 .cell.x::after,
-.board.x .cell:not(.x):not(.circle):hover::after {
+.board.x .cell:not(.x):not(.circle):hover::after
+{
     transform: rotate(-45deg);
 }
 
 .cell.circle::before,
 .cell.circle::after,
-.board.circle .cell:not(.x):not(.circle):hover::before,
+.board.circle .cell:not(.x):not(.circle):hover::before, 
 .board.circle .cell:not(.x):not(.circle):hover::after {
-   content: '';
-   position: absolute;
-   border-radius: 50%;
+    content: '';
+    position: absolute;
+    width: var(--mark-size);
+    height: var(--mark-size);
+    border-radius: 50%;
 }
 
-.cell.circle::before, 
+.cell.circle::before,
 .board.circle .cell:not(.x):not(.circle):hover::before{
     width: var(--mark-size);
     height: var(--mark-size);
 }
 
-.cell.circle::after, 
+.cell.cell.circle::after,
 .board.circle .cell:not(.x):not(.circle):hover::after{
     width: calc(var(--mark-size) * .7);
     height: calc(var(--mark-size) * .7);
-    background-color: white;
+    background-color: grey;
 }
 
 .winning-message {
@@ -119,7 +134,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .9);
+    background-color:  rgba(0, 0, 0, .9);
     justify-content: center;
     align-items: center;
     color: white;
@@ -135,12 +150,12 @@ body {
     cursor: pointer;
 }
 
-.winning-message button:hover {
+.winning-message button:hover{
     background-color: black;
-    color: white;
     border-color: white;
+    color: white;
 }
 
-.winning-message.show {
+.winning-message.show{
     display: flex;
 }
